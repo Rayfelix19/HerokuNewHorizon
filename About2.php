@@ -10,7 +10,7 @@ echo $dd;
 <html>
 <head>
     <title>Admin Dashboard</title>
-    <!--link rel="stylesheet" type="text/css" href="styles.css">-->
+    <link rel="stylesheet" type="text/css" href="About2.css">
 </head>
 <body>
 <h1>Welcome, Admin!</h1>

@@ -1,0 +1,174 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Create a container for the content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #043263;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style buttons and links */
+.button, a {
+    background-color: #043263;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover, a:hover {
+    background-color: #1a4f91;
+}
+
+/* Create a hero section */
+.hero {
+    color: #203865;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero2 {
+    background-image: url('NewHorizonLogo.png');
+    background-size: cover;
+    color: #203865;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Style feature sections */
+.features {
+    padding: 20px;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px;
+}
+
+.feature img {
+    max-width: 100px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #043263;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Media queries for responsiveness (adjust as needed) */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Styles for .bubble-container */
+.bubble-container {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+}
+
+/* Styles for .page-bubble */
+.page-bubble {
+    width: 15%;
+    min-width: 200px;
+    max-width: max-content;
+    min-height: 100px;
+    height: fit-content;
+    margin: 0 auto 16px;
+    padding: 16px;
+    border-radius: 15px;
+    background-color: #e1e2e5; /* You can change the background color here */
+}
+
+/* Styles for .warning */
+.warning {
+    background-color: #c2b4bb; /* You can change the background color here */
+}
+
+/* Styles for .page-bubble-label */
+.page-bubble-label {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+
+/* Styles for .page-bubble-description */
+.page-bubble-description {
+    font-size: 16px;
+}
+
+/* Styles for .page-bubble > .page-bubble-description */
+.page-bubble > .page-bubble-description {
+    visibility: collapse;
+    max-height: 0;
+    transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
+    padding: 0;
+}
+
+/* Styles for .page-bubble:hover > .page-bubble-description */
+.page-bubble:hover > .page-bubble-description {
+    visibility: visible;
+    overflow: hidden;
+    height: auto;
+    max-height: 700px;
+    padding-top: 16px;
+    transition: visibility 0s linear 0.2s, opacity 0.5s ease-out, max-height 2s linear;
+    transition-delay: 0s;
+    opacity: 1;
+}
