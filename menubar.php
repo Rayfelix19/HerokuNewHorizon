@@ -3,7 +3,7 @@
  
  
 // Varaiables
-	$headr		= array('Home' , 'Club' , 'Event' , 'About', 'Admin');
+	$headr		= array('Home' , 'Club' , 'Event' , 'About', 'About2');
 	$logg 		= array('logon' => '#ffc21c');
 	$pages		= array( 
 						'bank' 			=> 'lightgreen',
