@@ -1,6 +1,7 @@
 
 <?php
-
+$dd=" ok";
+echo $dd;
 ?>
 
 
