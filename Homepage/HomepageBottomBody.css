@@ -1,0 +1,35 @@
+.bottomBodySection{
+    margin-top: .5px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 100%;
+    position: relative;
+    z-index: 25;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    position: absolute;
+    column-gap: 4%;
+    text-align: center;
+    background: rgb(0, 100, 86)
+}
+
+p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.link{
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    margin-left: 20%;
+    background-color: #f8fafb;
+    color:black;
+    transition: 0.25s;
+    vertical-align: top;
+}
+
+img{
+    width: 100%;
+}
+

@@ -1,0 +1,243 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+* {box-sizing: border-box;}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
+
+.imageHeading{
+    background-color: green;
+    width: 1366px;
+    margin:auto;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    height: 175px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.imageHeading img{
+    width: 1366px;
+    height: 175px;
+    position: absolute;
+    object-fit: cover;
+    object-position: 30% 30%;
+}
+
+.imageHeadingTitle{
+    position: absolute;
+    background-color: transparent;
+    height: 175px;
+    width: 1366px;
+
+}
+
+.imageHeadingTitle h1{
+    background-color: transparent;
+    line-height: 50px;
+    text-align: center;
+}
+
+.section1{
+    width: 1366px;
+    margin:auto;
+    position: relative;
+
+    
+}
+
+
+.newsImage{
+    width: 26%;
+    background-color: yellow;
+    display: inline-block;
+    margin-right: 1%;
+    vertical-align: top;
+    object-fit: cover;
+}
+
+.newsImage img{
+    width: 100%;
+    height: 400px;
+}
+
+.upcomingEvents{
+    width: 33.4%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    background-color: transparent;
+    color: #f5f5f5;
+    height: 400px;
+}
+
+.upcomingEvents h1{
+    background-color: transparent;
+}
+
+.upcomingEvents h3{
+    background-color: transparent;
+}
+
+.aboutHeader h1{
+    background-color: #0988af;
+    width: 1366px;
+    height: 50px;
+    margin:auto;
+    padding: 5px;
+    text-shadow: 1px 1px 1px 1px black;
+    color: #f5f5f5;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.aboutHeader a{
+    text-decoration: none;
+    color: #f5f5f5;
+    background-color: transparent;
+}
+
+.imageBody{
+    margin-top: 20px;
+    width: 1366px;
+    margin: auto;
+    height: 100px;
+    background-color: #006f71;
+    border-width: 3px;
+}
+
+.imageBodyContainer{
+    margin-top: 20px;
+    background-color: #006f71;
+    width: 1366px;
+    height: 100px;
+    position: relative;
+}
+
+.imageBodyContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 54%;
+    opacity: .70;
+    background-color: #006f71;
+    position: absolute;
+}
+
+.imageBodyContainerTitle{
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+    background-color: transparent;
+}
+
+.imageBodyContainerTitle h1{
+    position: absolute;
+    background-color: transparent;
+    text-align: center;
+    width: 100%;
+    line-height: 40px;
+    text-shadow: 2px 2px black;
+    font-size: 45px;
+    color:#f5f5f5
+}
+
+.clubNewsSection {
+
+    margin: 40px auto 0;
+    width: 1366px;
+    border-top: #006f71;
+    border-bottom: #006f71;
+    border-style: solid none solid none;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    margin-bottom: 40px;
+}
+
+.listOfNews{
+    margin-left: 100px;
+    width: 45%;
+    padding: 10px;
+}
+
+.listOfNews h1{
+    font-size: 40px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.listOfNews h3{
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.clubLinkFlexContainer{
+    display:flex;
+    flex-direction: row;
+    width: 1366px;
+    margin:auto;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+
+.boxBrowserContiner{
+    background-color: orange;
+    width:285px;
+    height: 250px;
+    background-color: black;
+    position: relative;
+}
+
+.boxBrowserContiner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .75;
+    position: absolute;
+}
+
+.boxBrowserContinerTitle{
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    text-align: center;
+}
+
+.boxBrowserContinerTitle h2{
+    line-height: 0px;
+    font-size: 30px;
+    background-color: transparent;
+    color: #f5f5f5;
+    text-shadow: 2px 2px black;
+
+}
+
+.boxBrowserContinerFooter{
+    background-color: transparent;
+    position: absolute;
+    top:80%;
+    width: 100%;
+    height: 30px;
+
+    
+    
+}
+
+.buttonToLearnMore{
+    background-color: orange;
+    border:none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px;
+
+}

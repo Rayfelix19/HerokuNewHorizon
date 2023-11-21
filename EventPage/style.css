@@ -1,0 +1,62 @@
+body{
+    background-color:green;
+}
+#img1{
+    height:200px;
+    width:350px;
+
+}
+#div1{
+    background-color:rgb(1, 67, 34);
+    height:800px;
+    width:100%;
+    margin-top:5%;
+}
+#div2{
+    margin-top: 15px;
+    height:260px;
+    width:350px;
+
+    
+}
+#div3{
+    margin-top: 15px;
+    height:260px;
+    width:350px;
+    margin-left:200px;
+
+}
+#div4{
+    margin-top: 15px;
+    height:260px;
+    width:450px;
+
+    
+}
+#u1{
+    color:white;
+    font-size:20px;
+    font-weight: bold;
+}
+#para1{
+    color:white;
+
+}
+hr{
+    color:rgb(255, 255, 255);
+}
+h1{
+    color: white;
+}
+h6{
+    color:white;
+}
+.paraClass1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.paraClass2{
+    color: white;
+}
+

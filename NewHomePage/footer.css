@@ -1,0 +1,81 @@
+.header_front{
+    width: 100%;
+    height: 50px;
+}
+.header_table{
+    display: flex;
+    align-items: center;
+    background-color:rgba(1, 79, 81, 1);
+}
+.header_back{
+    width: 100%;
+    height: 50px;
+}
+.header{
+    width: 100%;
+    position:fixed; 
+    z-index: 2; 
+    top:0%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.sectionDivider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSection{
+    background-color: darkcyan;
+    width: 1366px;
+    align-items: center;
+    margin: auto;
+}
+
+.section1{
+    padding-top: 2%;
+    text-align: center;
+    flex: 1;
+    
+
+}
+
+.fscIcon{
+    width: 35%;
+    border-radius: 10px;
+
+
+}
+
+.socialIcon{
+    font-size: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.section2{
+    text-align: center;
+
+}
+
+.section3{
+    text-align: center;
+
+}
+
+.section4{
+    text-align: center;
+    line-height: 25px;
+    flex: 1;
+    margin-right: 10%;
+
+}
+
+.label{
+    background-color: #ffc21c;    
+    text-align: center;
+}

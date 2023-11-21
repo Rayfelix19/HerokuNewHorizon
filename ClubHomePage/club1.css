@@ -1,0 +1,451 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: peachpuff;
+
+}
+
+.top{
+    margin-top: 60px;
+    width: 1366px;
+    height: 100px;
+    position:relative;
+    background-image:radial-gradient(purple 40%, rgb(52, 3, 56));
+}
+
+.top h1{
+    display: inline-flex;
+    margin-left: 175px;
+    color:white;
+}
+
+.top p{
+    position: absolute;
+     display: inline;
+    margin-left: -260px;
+    margin-top: 60px;
+    font-size: 25px;
+    color:white;
+
+}
+
+.clubInfo{
+    background-color: black;
+    width:1366px;
+    padding-bottom: 60px;
+    color:lightgray
+    
+}
+
+.clubInfo p{
+    text-align: justify;
+    padding-left: 175px;
+    padding-right: 100px;
+    padding-top: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.imageHeader{
+    margin-top: -50px;
+    margin-left: 50px;
+
+    position: absolute;
+    width:100px;
+    height: 100px;
+    object-fit: cover;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 60px;
+    border-color: black;
+}
+
+
+.clubHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clubIcon{
+    width: 10%;
+    border-radius: 50%;
+}
+
+.clubTitle{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.listOfBenefitsGrid{
+    width: 1111px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-right: 80px;
+    padding-left: 175px;
+    padding-bottom: 40px;
+    row-gap: 60px;
+    background-color: #f5f5f5;
+
+}
+
+.listOfBenefits{
+    /*box-shadow: 0px 0px 0px 2px rgba(0, 0, 255, .2);*/
+    /*background-color: rgb(100, 100, 100);*/
+ 
+    background-color: #f5f5f5;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0px 2px 20px 0px rgba(41, 41, 41, 0.4);
+    color: black;
+    position: relative;
+}
+
+.benefitsIcon{
+    position: absolute;
+    top: -35px;
+}
+
+.benefitsIcon img{
+    object-fit: cover;
+    object-fit: fill;
+    margin-left: 65px;
+    height: 70px;
+    width:70px;
+    border-radius: 35px;
+    box-shadow: 0px 2px 10px 0px rgba(41, 41, 41, 0.5);
+
+}
+
+.listOfBenefitsDesciption{
+    margin-top: 20px;
+    width:200px;
+}
+
+.listOfBenefitsDesciption p{
+    text-align: center;
+    line-height: 20px;
+}
+
+.staffMembers{
+    width: 1111px;
+    height:100% ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: #FAEACB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 175px;
+    padding-right: 80px;
+
+}
+
+.colorBar{
+    background-color: rgb(28, 122, 94);
+    height: 5px;
+}
+
+.member{
+    text-align: center;
+    height: 175px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 10px 0px rgba(41, 41, 41, 0.3);
+
+}
+
+.member img{
+    width: 100%;
+    object-fit:cover;
+    height: 120px;
+    
+}
+
+
+
+
+
+.studentMembers{
+    width: 1111px;
+    height:100% ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: #FAEACB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 175px;
+    padding-right: 80px;
+
+}
+
+.stColorBar{
+    display: inline-block;
+    background-color: rgb(255, 238, 5);
+    height: 100%;
+    width: 5px;
+}
+
+.student{
+    display: inline-block;
+    height: 60px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 10px 0px rgba(41, 41, 41, 0.3);
+
+}
+
+.student img{
+    width: 60px;
+    background-color: rgb(0, 0, 0);
+    object-fit:cover;
+    height: 60px;
+    
+    
+}
+
+.stName p{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.stName{
+  display: inline-block;
+    position: absolute;
+    width: 130px;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+.buttonSection{
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+
+    
+}
+
+
+.contactButton{
+
+    background-color: rgb(25, 118, 210);
+    color: white;
+    font-size: 22px;
+    margin-right: 30px;
+    padding:10px;
+    border-radius: 4px;
+    transition: 0.25s;
+    cursor: pointer;
+    border-radius: 4px;
+    border-width: 0px;
+}
+
+.joinButton{
+    background-color: rgb(25, 118, 210);
+    color: white;
+    font-size: 22px;
+    padding:10px;
+    border-radius: 4px;
+    transition: 0.25s;
+    cursor: pointer;
+    border-width: 0px;
+
+
+}
+
+.joinButton:hover{
+    background-color: rgb(65, 235, 65);
+    color:black;
+    opacity: .8;
+}
+
+.contactButton:hover {
+    background-color: rgb(65, 235, 65);
+    color: black;
+    opacity: .8;
+}
+
+
+.clubImages{
+    margin-left: 20px;
+    max-height: 500px;
+    width: 1366px;
+    background-color: #006f71;
+    overflow:hidden;
+}
+
+.clubImages img{
+    width: 100%;
+    height: 500px;
+    object-fit:cover;
+    object-position: 50% 20%;
+
+}
+
+
+.overallReview{
+    margin-left: 20px;
+    margin-top: 20px;
+    max-width: 550px;
+}
+
+.overallNumber{
+    display: inline-block;
+
+}
+
+.number{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.ratingList{
+    display: inline-block;
+    float:right;
+   
+}
+
+.outOf5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.starList{
+    text-align: right;
+   
+}
+
+.starList i{
+   background: none;
+   
+}
+
+.averageRating{
+    font-size: 20px;
+    font-weight: 600;
+    float: right;
+}
+
+.sortComments{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.reviewGrid{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.reviews{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left:20px;
+    background-color: #f5f5f5;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 500px;
+    box-shadow: 0px 2px 10px 0px rgba(41, 41, 41, 0.4);
+
+}
+
+.reviewAvatar{
+    display: inline-block;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+
+
+.reviewIcon{
+    width: 40px;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+}
+
+.fa-star, .fa-thumbs-up, .fa-thumbs-down{
+    background-color: #f5f5f5;
+}
+.checked{
+    color:orange;
+    background-color: #f5f5f5;
+}
+
+.reviewDescription{
+    margin-left: 5px;
+    background-color: #f5f5f5;
+    vertical-align: top;
+    display: inline-block;
+    width: 450px;
+}
+
+.reviewDate{
+    float: right;
+    font-weight: lighter;
+    background-color: #f5f5f5;
+    color:rgb(75, 75, 75);
+    font-size: 16px;
+}
+
+.userComment{
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+}
+
+.likeIcon{
+    font-size: 20px;
+    transition: 0.25s;
+    margin-right: 20px;
+}
+
+.likeIcon:hover{
+    color: blue;
+    transition: 0.25s;
+}
+
+.replyButton{
+    background-color: #f5f5f5;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    transition: .25s;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.replyButton:hover{
+    background-color: gray;
+}
+
+.showMoreSection{
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.showMoreButton{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 25px;
+    border-width: 1px;
+    transition: .25s;
+    font-weight: bold;
+}
+

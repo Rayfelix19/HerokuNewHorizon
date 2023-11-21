@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="HompageSlideShow.css">
+        <link rel="stylesheet" href="HomepageHeader.css">
+        <link rel="stylesheet" href="HomepageBottomBody.css">
+    </head>
+    <body style="margin: 0;">
+<!--Header Section-->
+    <div class="slideshow-container">
+        <div class="heading">
+            <div class="left-section-header">
+                <button class="RamCentralButton"><span style="color: darkgreen;">RAM</span>CENTERAL</button>
+                <button class="FSC_Button">Farmingdale State College</button>
+            </div>
+            <div class="middle-section1">
+                <p><a href="#">Home</a></p>
+            </div>
+            <div class="middle-section2">
+                <p><a href="#">Directories</p>
+            </div>
+            <div class="middle-section3">
+                <p><a href="#">FSC Overview</p>
+            </div>
+            <div class="middle-section4">
+                <input type="text" placeholder="search">
+                
+            </div>
+            <div class="right-section">
+                <button class="signInButton"> <span style="font-size: 25px; font-weight: 700;">Sign In</span></button>               
+            </div>
+        </div> 
+
+<!--Slideshow Section-->
+
+        <div class="mySlide fade">
+                <img style="width:100%;" src="Pictures/FSC Campus Center.jpg" alt="FSC Campus Center">
+            </div>
+            <div class="mySlide fade">
+                <img style="width:100%;"src="Pictures/FSC Fountain.jpg" alt="FSC Campus Center">
+            </div>
+            <div class="mySlide fade">
+                <img style="width:100%;"src="Pictures/FSC Quinton Hall.jpg" alt="FSC Campus Center">
+            </div>
+       <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+       <a style="border-style: solid;border-width: 1px;border-radius: 50%; padding-left: 14px; 
+       padding-right: 
+       16px;padding-top: 6px; 
+       padding-bottom: 6px;" class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+
+        <div class="dots" style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <script> 
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlide");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
+<!--Bottom Body Section-->
+<div class="bottomBodySection">
+    <div class="link">
+        <p style="margin-top:5px;">Join Club</p>
+        <img src="Pictures/people.png" alt="">
+    </div>
+    <div class="link">
+        <p style="margin-top:5px;">Attend Events</p>
+        <img src="Pictures/calendar.png" alt="">
+    </div>
+    <div class="link">
+        <p style="margin-top:5px;">Leave A Review</p>
+        <img src="Pictures/review.png" alt="">
+    </div>
+    <div class="link">
+        <p style="margin-top:5px;">Track Involvement</p>
+        <img src="Pictures/involvement.png" alt="">
+    </div>
+</div>
+<!--Footer-->
+    </body>
+</html>
